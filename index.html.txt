@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Flores Amarillas para una Gran Amiga 🌻</title>
+  <link rel="stylesheet" href="style.css">
+  <!-- Librería Three.js para la galaxia de partículas en 3D -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+</head>
+<body>
+
+  <!-- Contenedor del espacio 3D -->
+  <div id="canvas-container"></div>
+
+  <!-- Tarjeta con el mensaje para tu amiga -->
+  <div class="Flores_Amarillas">
+    <h1>¡Para una Iraida! 🌻</h1>
+    <p>Gracias por tu valiosa amistad y por estar siempre ✨</p>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

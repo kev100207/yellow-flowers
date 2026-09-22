@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  overflow: hidden;
+  background: radial-gradient(circle at center, #0d1b2a 0%, #020813 100%);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#canvas-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: 1;
+}
+
+.Flores_Amarillas {
+  position: absolute;
+  top: 80%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 90%;
+  max-width: 420px;
+  background: rgba(10, 25, 47, 0.75);
+  backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 215, 0, 0.4);
+  border-radius: 20px;
+  padding: 22px;
+  text-align: center;
+  color: #ffffff;
+  z-index: 10;
+  box-shadow: 0 0 30px rgba(255, 215, 0, 0.25);
+}
+
+.Flores_Amarillas h1 {
+  color: #ffd700;
+  font-size: 1.8rem;
+  margin-bottom: 10px;
+  text-shadow: 0 0 12px rgba(255, 215, 0, 0.6);
+}
+
+.Flores_Amarillas p {
+  color: #e2e8f0;
+  font-size: 1.05rem;
+  line-height: 1.4;
+}
